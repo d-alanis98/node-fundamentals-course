@@ -22,7 +22,7 @@ const goodbye = name => {
 const talk = (name, message) => {
     return new Promise((resolve, reject) => {
         if(!message || typeof(message) !== 'string')
-            reject(new Error('Message required'));
+            return reject(new Error('Message required'));
         setTimeout(() => {
             console.log(message);
             resolve(name);
