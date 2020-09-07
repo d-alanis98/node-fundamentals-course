@@ -1,2 +1,2 @@
-# node-fundamentals-course
-Node JS fundamentals.
+# node-fundamentals-course  
+Node JS fundamentals Platzi course exercises and project.
