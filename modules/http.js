@@ -1,9 +1,12 @@
 const http = require('http');
 
+const getResponse = () => 'OK';
+
 const router = (req, res) => {
     switch(req.url) {
         case '/hello':
-            res.write('OK');
+            let response = getResponse();
+            res.write(response);
             break;
         default:
             res.writeHead(404);
